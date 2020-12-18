@@ -46,7 +46,6 @@ footer {
 }
 
 .inner_box {
-    min-width: 412px;
     margin: auto;
     display: flex;
     justify-content: space-between;

@@ -14,7 +14,6 @@ a:hover {
 
 /* The hero image */
 .hero-box {
-min-width: 460px;
 height: 300px;
 display: flex;
 }
@@ -44,7 +43,6 @@ color: white;
 /* laatikot */
 
 .inner_box {
-  min-width: 412px;  
   display: flex;
   justify-content: space-between;
 }
@@ -129,7 +127,6 @@ nav li a {color: black;}
 footer {
   background-color: black;
   color: yellow;
-  min-width: 460px;
 }
 
 /* RESPONSIVE MEDIA SCETION 768px MAX */
@@ -143,7 +140,6 @@ footer {
 }
 
 .inner_box {
-  min-width: 460px;
   flex:1;
   flex-direction: column;
 }
