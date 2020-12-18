@@ -2,7 +2,17 @@ body, html {
     height: 100%;
     font-family: 'Goldman', cursive;
     font-size: 1em;
+    margin: 0;
   }
+a:hover {
+    color: blue;
+}
+
+footer {
+    padding-left: 40px;
+    background-color: black;
+    color: yellow;
+}
 
 .banner {
     height: 100px;
@@ -12,13 +22,12 @@ body, html {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("kuvat/banner.jpg");
     height: 100%;
-    width: 120%;
+    width: 100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin: -20px;
 
 }
 
