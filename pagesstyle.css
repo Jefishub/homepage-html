@@ -8,12 +8,6 @@ a:hover {
     color: blue;
 }
 
-footer {
-    padding-left: 40px;
-    background-color: black;
-    color: yellow;
-}
-
 .banner {
     height: 100px;
 }
@@ -89,6 +83,10 @@ nav ul {
   
   nav li a {color: black;}
 
+footer {
+    background-color: black;
+    color: yellow;
+}
 
 @media (max-width: 768px)
 {
